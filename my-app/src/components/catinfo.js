@@ -2,33 +2,29 @@ import React from 'react';
 import Navbar from './Navbar';
 import '../App.css';
 
-const catinfo = () => {
+const Catinfo = () => {
     return (
         <div className='page'>
             <div>
                 <Navbar/>
                 <h1 className='text'>
-                    Cat Info!!11!
+                    Cat Info!!1!
                 </h1>
                 <p className='text' style={{width:'600px'}}>
-                    Cats are very 
+                    Cats are very cute but can be kinda mean
                 </p>
                 <h2 className='text'>
-                    Get Started
+                    What do they look like?
                 </h2>
                 <p style={{width:'600px'}}className='text'>
-                    To begin, please click Sign UP to create an account. Once your account is created, add some items to your
-                    inventory using the Add Item page. Once your inventory has been filled, use the Generator to recieve outfits.
+                    They look like a little animal (look at the pics tab)
+                    also they kinda look like this -> :3
                 </p>
                 <h2 className='text'>
-                    Background
+                    Why cats are better than dogs
                 </h2>
                 <p style={{width:'600px'}}className='text'>
-                    Our algorithm is based on two data points: Colors and favorability scores. First, we choose the top for the outfit
-                    based on favorability scores, then we choose the pants and shoes based on favorability, how they match with each other,
-                    and how they match with the already-selected shirt. We take feedback from you when you 'like' and 'dislike' outfits,
-                    editing the favorability scores of the items accordingly. If you'd like to manually change the favorability of an item,
-                    you can do that in the inventory screen.
+                    They are just soooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo cute
                 </p>
             </div>
             <br/>
@@ -38,4 +34,4 @@ const catinfo = () => {
     );
 }
 
-export default catinfo;
+export default Catinfo;
