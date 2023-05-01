@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import '../App.css';
 
-const Catinfo = () => {
+const Kittyinfo = () => {
     return (
         <div className='page'>
             <div>
@@ -34,4 +34,4 @@ const Catinfo = () => {
     );
 }
 
-export default Catinfo;
+export default Kittyinfo;

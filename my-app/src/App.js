@@ -5,8 +5,8 @@ import './App.css';
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
-import Catinfo from './components/Catinfo';
-import Catpics from './components/Catpics';
+import Kittyinfo from './components/Kittyinfo';
+import Kittypics from './components/Kittypics';
 import React, { useEffect } from "react";
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/catinfo" element={<Catinfo/>}/>
-        <Route path="/catpics" element={<Catpics/>}/>
+        <Route path="/Kittyinfo" element={<Kittyinfo/>}/>
+        <Route path="/Kittypics" element={<Kittypics/>}/>
       </Routes>
     </BrowserRouter>
   )
