@@ -18,7 +18,7 @@ const Catinfo = () => {
                 </h2>
                 <p style={{width:'600px'}}className='text'>
                     They look like a little animal (look at the pics tab)
-                    also they kinda look like this -> :3
+                    also they kinda look like this - :3
                 </p>
                 <h2 className='text'>
                     Why cats are better than dogs
